@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  background-color: black;
+  border: solid 1px;
+}
+
+.column {
+  margin: 1px;
+  min-height: 50px;
+  min-width: 50px;
+  background-color: white;
+}
+
+.column:hover {
+  background-color: rgb(204, 203, 203);
+}
